@@ -24,7 +24,7 @@ class SplashState extends State<Splash> {
   @override
   void initState() {
     super.initState();
-    navigateScreen();
+    loadWidget();
   }
 
   @override
@@ -47,12 +47,15 @@ class SplashState extends State<Splash> {
 
   /*Navigate after delay*/
   navigateScreen() async {
-    if (await appPreferences.getBoolPreference(Constants.walkThroughVisited)) {
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => WalkThrough()));
+  }
 
-    } else {
-      var pushReplacement = Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => WalkThrough()));
-    }
+  loadWidget() {
+    Future.delayed(const Duration(seconds: 3)).then((onValue) {
+
+        navigateScreen();
+    });
   }
 
 }
