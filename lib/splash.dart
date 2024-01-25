@@ -51,7 +51,6 @@ class SplashState extends State<Splash> {
 
   loadWidget() {
     Future.delayed(const Duration(seconds: 3)).then((onValue) {
-
         navigateScreen();
     });
   }
