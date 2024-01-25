@@ -1,7 +1,5 @@
 import 'package:bloc_pattern_demo/walkthrough.dart';
 import 'package:flutter/material.dart';
-import 'common/Constants.dart';
-import 'common/shared_preference.dart';
 import 'resources/images.dart';
 import 'dart:async';
 import 'package:bloc_pattern_demo/resources/colors.dart';
