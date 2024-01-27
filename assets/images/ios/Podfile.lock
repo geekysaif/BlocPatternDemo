@@ -1,0 +1,379 @@
+PODS:
+  - Amplify (1.11.0):
+    - Amplify/Default (= 1.11.0)
+  - Amplify/Default (1.11.0)
+  - amplify_api (0.0.1):
+    - Amplify (~> 1.11.0)
+    - amplify_core
+    - AmplifyPlugins/AWSAPIPlugin (~> 1.11.0)
+    - Flutter
+  - amplify_auth_cognito (0.0.1):
+    - Amplify (~> 1.11.0)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (~> 1.11.0)
+    - Flutter
+    - ObjectMapper
+  - amplify_core (0.0.1):
+    - Flutter
+  - amplify_datastore (0.0.1):
+    - Amplify (~> 1.11.0)
+    - amplify_core
+    - AmplifyPlugins/AWSDataStorePlugin (~> 1.11.0)
+    - Flutter
+  - amplify_flutter (0.0.1):
+    - Amplify (~> 1.11.0)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (~> 1.11.0)
+    - AWSPluginsCore (~> 1.11.0)
+    - Flutter
+  - AmplifyPlugins/AWSAPIPlugin (1.11.0):
+    - AppSyncRealTimeClient (~> 1.4)
+    - AWSCore (~> 2.24.0)
+    - AWSPluginsCore (= 1.11.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.11.0):
+    - AWSAuthCore (~> 2.24.0)
+    - AWSCognitoIdentityProvider (~> 2.24.0)
+    - AWSCognitoIdentityProviderASF (~> 2.24.0)
+    - AWSCore (~> 2.24.0)
+    - AWSMobileClient (~> 2.24.0)
+    - AWSPluginsCore (= 1.11.0)
+  - AmplifyPlugins/AWSDataStorePlugin (1.11.0):
+    - AWSCore (~> 2.24.0)
+    - AWSPluginsCore (= 1.11.0)
+    - SQLite.swift (= 0.12.2)
+  - AppSyncRealTimeClient (1.5.0):
+    - Starscream (~> 3.1.1)
+  - AWSAuthCore (2.24.3):
+    - AWSCore (= 2.24.3)
+  - AWSCognitoIdentityProvider (2.24.3):
+    - AWSCognitoIdentityProviderASF (= 2.24.3)
+    - AWSCore (= 2.24.3)
+  - AWSCognitoIdentityProviderASF (2.24.3)
+  - AWSCore (2.24.3)
+  - AWSMobileClient (2.24.3):
+    - AWSAuthCore (= 2.24.3)
+    - AWSCognitoIdentityProvider (= 2.24.3)
+    - AWSCognitoIdentityProviderASF (= 2.24.3)
+    - AWSCore (= 2.24.3)
+  - AWSPluginsCore (1.11.0):
+    - Amplify (= 1.11.0)
+    - AWSCore (~> 2.24.0)
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - device_info (0.0.1):
+    - Flutter
+  - esys_flutter_share (0.0.1):
+    - Flutter
+  - file_picker (0.0.1):
+    - Flutter
+  - Firebase/CoreOnly (8.3.0):
+    - FirebaseCore (= 8.3.0)
+  - Firebase/DynamicLinks (8.3.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 8.3.0)
+  - Firebase/Messaging (8.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.3.0)
+  - firebase_core (1.4.0):
+    - Firebase/CoreOnly (= 8.3.0)
+    - Flutter
+  - firebase_dynamic_links (2.0.7):
+    - Firebase/DynamicLinks (= 8.3.0)
+    - firebase_core
+    - Flutter
+  - firebase_messaging (10.0.4):
+    - Firebase/Messaging (= 8.3.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (8.3.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.3.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseDynamicLinks (8.3.0):
+    - FirebaseCore (~> 8.0)
+  - FirebaseInstallations (8.3.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (~> 1.2)
+  - FirebaseMessaging (8.3.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+  - Flutter (1.0.0)
+  - flutter_app_badger (0.0.1):
+    - Flutter
+  - flutter_custom_dialog (0.0.1):
+    - Flutter
+  - flutter_money_formatter (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.5.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.0)"
+  - GoogleUtilities/Reachability (7.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.5.0):
+    - GoogleUtilities/Logger
+  - image_picker (0.0.1):
+    - Flutter
+  - keyboard_visibility (0.5.0):
+    - Flutter
+    - Reachability
+  - local_auth (0.0.1):
+    - Flutter
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - ObjectMapper (4.2.0)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (1.2.12)
+  - Purchases (3.13.2):
+    - PurchasesCoreSwift (= 3.13.2)
+  - purchases_flutter (3.9.1):
+    - Flutter
+    - PurchasesHybridCommon (= 1.11.2)
+  - PurchasesCoreSwift (3.13.2)
+  - PurchasesHybridCommon (1.11.2):
+    - Purchases (= 3.13.2)
+  - razorpay-pod (1.1.14)
+  - razorpay_flutter (1.1.10):
+    - Flutter
+    - razorpay-pod
+  - Reachability (3.2)
+  - search_choices (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.1.1)
+  - Toast (4.0.0)
+  - unique_identifier (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amplify_api (from `.symlinks/plugins/amplify_api/ios`)
+  - amplify_auth_cognito (from `.symlinks/plugins/amplify_auth_cognito/ios`)
+  - amplify_core (from `.symlinks/plugins/amplify_core/ios`)
+  - amplify_datastore (from `.symlinks/plugins/amplify_datastore/ios`)
+  - amplify_flutter (from `.symlinks/plugins/amplify_flutter/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - esys_flutter_share (from `.symlinks/plugins/esys_flutter_share/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_dynamic_links (from `.symlinks/plugins/firebase_dynamic_links/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_app_badger (from `.symlinks/plugins/flutter_app_badger/ios`)
+  - flutter_custom_dialog (from `.symlinks/plugins/flutter_custom_dialog/ios`)
+  - flutter_money_formatter (from `.symlinks/plugins/flutter_money_formatter/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - keyboard_visibility (from `.symlinks/plugins/keyboard_visibility/ios`)
+  - local_auth (from `.symlinks/plugins/local_auth/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - purchases_flutter (from `.symlinks/plugins/purchases_flutter/ios`)
+  - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
+  - search_choices (from `.symlinks/plugins/search_choices/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - unique_identifier (from `.symlinks/plugins/unique_identifier/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - ObjectMapper
+    - PromisesObjC
+    - Purchases
+    - PurchasesCoreSwift
+    - PurchasesHybridCommon
+    - razorpay-pod
+    - Reachability
+    - SQLite.swift
+    - Starscream
+    - Toast
+
+EXTERNAL SOURCES:
+  amplify_api:
+    :path: ".symlinks/plugins/amplify_api/ios"
+  amplify_auth_cognito:
+    :path: ".symlinks/plugins/amplify_auth_cognito/ios"
+  amplify_core:
+    :path: ".symlinks/plugins/amplify_core/ios"
+  amplify_datastore:
+    :path: ".symlinks/plugins/amplify_datastore/ios"
+  amplify_flutter:
+    :path: ".symlinks/plugins/amplify_flutter/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  esys_flutter_share:
+    :path: ".symlinks/plugins/esys_flutter_share/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_dynamic_links:
+    :path: ".symlinks/plugins/firebase_dynamic_links/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_app_badger:
+    :path: ".symlinks/plugins/flutter_app_badger/ios"
+  flutter_custom_dialog:
+    :path: ".symlinks/plugins/flutter_custom_dialog/ios"
+  flutter_money_formatter:
+    :path: ".symlinks/plugins/flutter_money_formatter/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  keyboard_visibility:
+    :path: ".symlinks/plugins/keyboard_visibility/ios"
+  local_auth:
+    :path: ".symlinks/plugins/local_auth/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  purchases_flutter:
+    :path: ".symlinks/plugins/purchases_flutter/ios"
+  razorpay_flutter:
+    :path: ".symlinks/plugins/razorpay_flutter/ios"
+  search_choices:
+    :path: ".symlinks/plugins/search_choices/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  unique_identifier:
+    :path: ".symlinks/plugins/unique_identifier/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  Amplify: cf25ee17b0762b3bacd4d4d49891ddada6bee912
+  amplify_api: 5ef7294d41dadf25acb1c145869931d82022a9b2
+  amplify_auth_cognito: 38761b51a433d49ecf5927de45488fcbf81a8c29
+  amplify_core: 8b38d20089fe4f225c14db6892f586bd03824a42
+  amplify_datastore: c0f2bcf9410731862612c986a9f331cb4f8691e4
+  amplify_flutter: 77665b732c1b8d04ed7f3eeb5a743f0b75838db1
+  AmplifyPlugins: bb73475de41297a7244e8f3fdbf40cdad8115048
+  AppSyncRealTimeClient: 2b4482b1770a3e5cf64f9714a6d198550017b5a2
+  AWSAuthCore: be26dde8246bb9b90a053a9392e9989149ac87d4
+  AWSCognitoIdentityProvider: 35a4d391d10add6293b2e1c9f3ccdb2237ddf8a1
+  AWSCognitoIdentityProviderASF: 48ccaa2ad4ecfba86549cb2023583aa073e2dd56
+  AWSCore: 759cbae2795ec192546187338bd21066c6b9ec0a
+  AWSMobileClient: a16718e842ae5cedc2b68a49f9bdd2e007a159c3
+  AWSPluginsCore: 1670f03a8612d60bd84c541ffa34f538e4037052
+  connectivity: c72716e202a1225ec4810740d5cb56b8ae3bf4cc
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  esys_flutter_share: 403498dab005b36ce1f8d7aff377e81f0621b0b4
+  file_picker: 408623be2125b79a4539cf703be3d4b3abe5e245
+  Firebase: 817b9171d0d51dccc458b94a5e8edff6b1dd323d
+  firebase_core: 72374607c8c6f5a0adc0559e5c5bf57deda975e3
+  firebase_dynamic_links: 63d25b8afb1257210012a703b2029b425f0b62c7
+  firebase_messaging: 55c5b8184efd330b9d1f1765b55c4ae57e015c5e
+  FirebaseCore: a6dba751680d7033b9d3831e1cfc95ead0605118
+  FirebaseCoreDiagnostics: 7e873baabcfaa9512f538554ae4fa0817aaafbdb
+  FirebaseDynamicLinks: 5ab1f7988e31b5b267a2e034659e43cef4fff613
+  FirebaseInstallations: b69db7680870dbac17bba7a51fc0b5c4b365baa7
+  FirebaseMessaging: 42252b79b860482021483748669ec32e22196462
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_app_badger: 65de4d6f0c34a891df49e6cfb8a1c0496426fa68
+  flutter_custom_dialog: c0d222a3c35af5b57581e54ef8784c94037cd2ec
+  flutter_money_formatter: d0d18ddc5be333fad8d09964d741b59fa11a91dc
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
+  image_picker: 66aa71bc96850a90590a35d4c4a2907b0d823109
+  keyboard_visibility: 96a24de806fe6823c3ad956c01ba2ec6d056616f
+  local_auth: 25938960984c3a7f6e3253e3f8d962fdd16852bd
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Purchases: 03200de9288724e77de435000d1828601e6b8e00
+  purchases_flutter: 513e990912ff636879bc414dc01071bf21c01eca
+  PurchasesCoreSwift: 2ea4b33e5cece5c8a0751594ef7c6cbfcbd747a9
+  PurchasesHybridCommon: 56ef42d85c3e930d49aff4ac5fa027373d2e1bb8
+  razorpay-pod: 7991bc0823d0f4b2934b4ea87967d54d2e284e2c
+  razorpay_flutter: 84b3bfd206ae9c9c2a9ba585524a1b3d8102b6c1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  search_choices: b50731e8c425078048f681f39c34375c58d6ce8d
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  unique_identifier: ebb92b4bc4ad9c2c93f85cb5e02f70ad168a2bd6
+  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
+
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+
+COCOAPODS: 1.11.1

@@ -7,6 +7,8 @@ import 'package:bloc_pattern_demo/resources/LatoBlack.dart';
 import 'package:bloc_pattern_demo/resources/colors.dart';
 import 'package:bloc_pattern_demo/resources/images.dart';
 
+import 'loginui/login.dart';
+
 class WalkThrough extends StatefulWidget {
   const WalkThrough({super.key});
 
@@ -49,10 +51,10 @@ class PageViewer extends State<WalkThrough> {
                   onTap: () {
                     appPreferences.saveBoolPreference(
                         Constants.walkThroughVisited, true);
-                  /*  Navigator.pushReplacement(
+                    Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(builder: (context) => Login()),
-                    );*/
+                    );
                   },
                   child: Container(
                     decoration: BoxDecoration(

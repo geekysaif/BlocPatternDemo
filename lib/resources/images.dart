@@ -9,12 +9,14 @@ class AppImages {
   get forwardarrow => "assets/images/forwardarrow.png";
   get walkthrougharrow => "assets/images/walkthrougharrow.png";
   get walkthrougharrowfinal => "assets/images/walkthrougharrowfinal.png";
+  get ic_eye_off => "assets/images/ic_eye_off.png";
+  get ic_eye_on => "assets/images/ic_eye_on.png";
 
-  static final AppImages _appImages = new AppImages._internal();
+  static final AppImages _appImages = AppImages._internal();
   factory AppImages() {
     return _appImages;
   }
   AppImages._internal();
 }
 
-AppImages appImages = new AppImages();
+AppImages appImages = AppImages();
